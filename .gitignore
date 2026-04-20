@@ -1,0 +1,23 @@
+# Firebase credentials - NEVER commit this
+*firebase-adminsdk*.json
+*firebase*credentials*.json
+*serviceAccount*.json
+
+# Environment / secrets
+.env
+*.env.local
+secrets.json
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
